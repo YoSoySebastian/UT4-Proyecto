@@ -1,0 +1,52 @@
+.contenedor{
+    height: 50vh;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu{
+    width: auto;
+    margin: 0 auto;
+}
+
+.icon {
+  height: 50px;
+  padding: 8px;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+.BotonSuperior{
+    text-decoration: none;
+    color: white;
+}
+
+.Enlace{
+    color:darkcyan;
+}
+
+
+h2{
+    padding-right: 5px;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+  }
