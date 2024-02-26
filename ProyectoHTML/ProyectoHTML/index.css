@@ -125,3 +125,16 @@ h5{
     line-height: 150px;
     font-size: 30px;
 }
+
+.mapa {
+    margin: auto;
+    cursor: pointer;
+}
+
+.mapa:hover {
+    transform: scale(7.1);
+}
+
+table{
+    margin: 0 auto;
+}
