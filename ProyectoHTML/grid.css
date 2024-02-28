@@ -1,0 +1,38 @@
+.layout{
+    display: grid;
+    justify-content: stretch;
+    margin: auto;
+    background-color: rgb(32, 48, 58);
+}
+
+.a1{
+    grid-template-columns: auto auto;
+    width: 10%;
+    margin: 20px;
+}
+
+.a2{
+    grid-template-columns: 20% 80%;
+    width: 75%;
+}
+
+.box{
+    border: 1px solid white;
+    line-height: 8px;
+}
+
+.principal{
+    width: 12%;
+    margin: 10px;
+    background-color: rgb(32, 48, 58);
+}
+
+.img{
+    text-align: center;
+    padding: 10px;
+}
+
+.text{
+    font-size: 15px;
+    padding: 8px;
+}
