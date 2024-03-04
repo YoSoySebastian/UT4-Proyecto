@@ -1,0 +1,25 @@
+footer{
+    border-top: 3px solid white;
+    margin-bottom: 20px;
+}
+
+footer h2{
+    font-size: 30px;
+    margin: 30px 10px;
+}
+
+footer a{
+    color: rgb(255, 183, 0);
+    font-size: 18px;
+    margin: 10px;
+}
+
+ul li::marker{
+    content: "⮞ ";
+    color: red;
+}
+
+footer a:active{
+    color: #FF0000;
+    padding: 2px
+}

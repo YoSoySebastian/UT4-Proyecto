@@ -1,0 +1,35 @@
+main{
+    padding-top: 7%;
+    width: 1024px;
+    margin-left: 7%;
+}
+
+.texto1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+p{
+    padding-top: 10px;
+}
+
+main h2{
+    padding-top: 20px;
+}
+
+h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+img[src="CSS/Img/Grub.webp"]{
+    float: right;
+    margin: 0px 0px 30px 20px;
+}
+
+.map{
+    padding: 10px 100px 0px 120px;
+    display: inline-block;
+    text-align: center;
+}

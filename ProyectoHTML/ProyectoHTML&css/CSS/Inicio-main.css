@@ -1,0 +1,107 @@
+.hoja{
+    padding-top: 7%;
+    width: 1024px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(0, 0, 0, 0.796);
+}
+
+.reproductor{
+    height: 50vh;
+    margin: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contentCarrusel{
+    border: 0px none white;
+    height: 360px;
+    width: 654px;
+    overflow: hidden;
+    margin: 0% auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel{
+    height: 100%;
+    position: relative;
+    margin: 0px;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+    background-size: cover;
+    position: center;
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+#tarjetaCarrusel-1{
+    background-image: url(Img/Caballero.jpg);
+}
+
+#tarjetaCarrusel-2{
+    background-image: url(Img/Jefes.jpg);
+}
+
+#tarjetaCarrusel-3{
+    background-image: url(Img/Amuletos.jpg);
+}
+
+#tarjetaCarrusel-4{
+    background-image: url(Img/Exploracion.jpg);
+}
+
+section {
+    padding: 20px 5px;
+}
+
+.enlaces{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 654px;
+    margin: 0% auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.enlaces button{
+    margin-right: 30px;
+}
+
+button{
+    border-radius: 50px;
+    border-color: white;
+    background-color: black;
+}
+
+button:hover{
+    border-color: black;
+    background-color: white;
+    color: black;
+    transition: 0,5s;
+}
+
+span{
+    font-size: 50px;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+    color: rgb(255, 204, 0);
+}
